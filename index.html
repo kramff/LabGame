@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Medical Lab Automation Game</title>
+	<script src="labgame.js"></script>
+	<link rel="stylesheet" href="labgame.css">
+</head>
+<body onload="Init();">
+	<div class="background nighttime"></div>
+	<div class="background daytime"></div>
+	<div class="top_bar">
+		<div class="title">Medical Lab Automation Game</div>
+		<div class="date_tracker">Day 1</div>
+		<div class="time_tracker">9:00 AM</div>
+		<div class="money_tracker">$100</div>
+	</div>
+	<div class="tabs_bar">
+		<div class="room_tab shipping selected_tab" room="shipping">Shipping & Receiving</div>
+		<div class="room_tab laboratory" room="laboratory">Laboratory</div>
+		<div class="room_tab office" room="office">Office</div>
+		<div class="room_tab break_room hidden" room="break_room">Break Room</div>
+		<div class="room_tab storage hidden" room="storage">Storage</div>
+	</div>
+	<div class="main_window">
+		<div class="room_window shipping selected_room" room="shipping"></div>
+		<div class="room_window laboratory" room="laboratory"></div>
+		<div class="room_window office" room="office"></div>
+		<div class="room_window break_room" room="break_room"></div>
+		<div class="room_window storage" room="storage"></div>
+	</div>
+</body>
+</html>
