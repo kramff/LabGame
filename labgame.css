@@ -137,3 +137,11 @@ body {
 .room_window:not(.selected_room) * {
 	pointer-events: none !important;
 }
+
+.shipping_area {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
